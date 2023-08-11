@@ -1,0 +1,74 @@
+.body {
+    margin-left: 20px;
+}
+
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px;
+    margin: 10px;
+}
+
+.innercard {
+    padding: 10px;
+    display: none;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1%;
+    border: 1px solid gray;
+    
+    
+   
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.dark {
+    background-color: black;
+}
+.yellow{
+    background-color: darkgoldenrod;
+}
+
+.center{
+    display: flex;
+}
+
+#figure {
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.rightbutton, .leftbutton {
+    height: 135px;
+}
+
+.vertikallayout{
+    vertical-align: auto;
+    display: column;
+}
+
+.gridlayout{
+    display: grid;
+}
+
+.ingenlayout{
+    display: flex;
+}
